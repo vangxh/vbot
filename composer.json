@@ -1,5 +1,5 @@
 {
-    "name": "hanson/vbot",
+    "name": "vangxh/vbot",
     "type": "library",
     "description": "高度自定义的微信机器人，能够实现群控制，自动回复，消息转发，防撤回，留言统计等功能",
     "keywords": [
@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "HanSon",
-            "email": "h@hanc.cc"
+            "name": "Vangxh",
+            "email": "vangxh@qq.com"
         }
     ],
     "bin": [
