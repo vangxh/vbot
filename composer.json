@@ -15,19 +15,21 @@
             "email": "h@hanc.cc"
         }
     ],
-    "bin": ["bin/vbot"],
+    "bin": [
+        "bin/vbot"
+    ],
     "require": {
         "guzzlehttp/guzzle": "^6.2",
-        "nesbot/carbon": "^1.21",
-        "symfony/console": "3.*",
-        "monolog/monolog": "^1.22",
+        "nesbot/carbon": "^2.0.0",
+        "symfony/console": "^6.4",
+        "monolog/monolog": "^3.8",
         "aferrandini/phpqrcode": "^1.0",
-        "illuminate/config": "^5.4",
-        "illuminate/cache": "^5.4",
-        "illuminate/filesystem": "^5.4",
-        "illuminate/container": "^5.4",
-        "illuminate/redis": "^5.4",
-        "illuminate/database": "^5.4"
+        "illuminate/config": "^10.48",
+        "illuminate/cache": "^10.48",
+        "illuminate/filesystem": "^10.48",
+        "illuminate/container": "^10.48",
+        "illuminate/redis": "^10.48",
+        "illuminate/database": "^10.38"
     },
     "autoload": {
         "files": [
@@ -41,5 +43,8 @@
         "allow-plugins": {
             "kylekatarnls/update-helper": true
         }
+    },
+    "require-dev": {
+        "composer/composer": "^2.2"
     }
 }
